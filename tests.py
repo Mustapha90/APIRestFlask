@@ -22,6 +22,10 @@ paises = [
         'nombre': 'japan',
         'codigo': u'81',
     },
+    {
+        'nombre': 'spain',
+        'codigo': u'34',
+    }
 ]
 class flaskAppTestCase(unittest.TestCase):
     def test_home(self):
